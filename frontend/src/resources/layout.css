@@ -1,0 +1,80 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.layout-parent {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    height: fit-content;
+    gap: 20px;
+}
+.body {
+    width: 100%;
+}
+.sidebar {
+    background: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110vh;
+}
+.sidebar-1 {
+    margin: 80px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.active-menu-items {
+   border: 2px solid rgba(255, 253, 253, 0.744);
+   border-radius: 5px;
+   margin: 10px 0px;
+}
+.menu-items {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+    gap: 10px;
+}
+.menu-items i {
+    font-size: 17px;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu-items span {
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.header {
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.479);
+    width: 100%;
+    padding: 20px;
+}
+.content {
+    margin: 20px 0px;
+    overflow-y: scroll !important;
+    overflow-x:hidden !important;
+    height: 85vh;
+}
+.sidebar-logo {
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.role {
+    color: #fff;
+}
+.role span {
+    display: block;
+}
+.bus-book {
+    text-decoration: underline;
+    color: var(--primary);
+}
